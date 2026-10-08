@@ -1,6 +1,6 @@
 # 🔋 My BESS Learning & Automation Home Bench
 
-This is a personal home laboratory repository that I am building on my workbench to sharpen my skills and go deeper into my knowledge and experience of **Battery Energy Storage Systems (BESS)**, **Industrial Protocols**, and **Systems Engineering**. 
+This is a personal home laboratory repository that I am building on my workbench to learn the fundamentals of **Battery Energy Storage Systems (BESS)**, **Industrial Protocols**, and **Systems Engineering**. 
 
 The goal of this project isn't to build a commercial-grade substation, but rather to use a mix of industrial hardware and spare components to teach myself how to write code, handle hardware data flows, and troubleshoot real-world communication blocks.
 
@@ -10,7 +10,7 @@ I have organized my local lab files into subdirectories to keep my learning work
     *   📄 [My Bill of Materials (BOM) List](./docs/BOM.md) - A simple list of the components I am using.
     *   🗺️ [IP & Serial Network Topology Blueprint](./docs/TOPOLOGY.md) - How I mapped out my local IPs.
     *   🔬 [Learning Journal & Methodologies Log](./docs/METHODOLOGIES.md) - Notes on my test procedures.
-    *   📐 [My Hardware Design Pivot Note](./docs/PIVOT_ESP32.md) - Why I moved away from my master's degree Arduino Leonardo board set up to an industrial ESP32-S3 module after an unexpected ground loop block.
+    *   📐 [My Hardware Design Pivot Note](./docs/PIVOT_ESP32.md) - Why I moved away from my master's degree Arduino Leonardo to an industrial ESP32-S3 module after an unexpected ground loop block.
 *   📂 **`src/`**: The code I am writing.
     *   💻 [src/python/](./src/python/) - My Python automation scripts for data logging and graphing.
 *   📂 **`data/`**: Simple `.csv` files capturing my cell charging and grid logging tests.
